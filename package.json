@@ -1,0 +1,21 @@
+{
+  "name": "mica-test-theme",
+  "version": "1.0.0",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "push": "shopify app push",
+    "scaffold": "shopify app scaffold",
+    "deploy": "shopify app deploy",
+    "info": "shopify app info"
+  },
+  "dependencies": {
+    "@shopify/app": "3.10.1",
+    "@shopify/cli": "3.10.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
